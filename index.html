@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margaritas</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="path/to/logo.png" alt="Margaritas Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to Margaritas</h1>
+        <p>Experience the best of Mexican cuisine</p>
+        <a href="#menu" class="btn">View Our Menu</a>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Welcome to Margaritas, where we bring the rich flavors of Mexico to your table. Our chefs are dedicated to using fresh ingredients and traditional recipes to create an unforgettable dining experience.</p>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="path/to/food1.jpg" alt="Dish 1">
+                <h3>Dish Name 1</h3>
+                <p>Description of dish 1</p>
+            </div>
+            <div class="menu-item">
+                <img src="path/to/food2.jpg" alt="Dish 2">
+                <h3>Dish Name 2</h3>
+                <p>Description of dish 2</p>
+            </div>
+            <!-- Add more dishes as needed -->
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-images">
+            <img src="path/to/gallery1.jpg" alt="Gallery Image 1">
+            <img src="path/to/gallery2.jpg" alt="Gallery Image 2">
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Margaritas. All rights reserved.</p>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
